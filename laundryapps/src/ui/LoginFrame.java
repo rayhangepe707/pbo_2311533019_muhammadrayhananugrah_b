@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import model.user;
+import Model.User;
 
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -83,7 +83,7 @@ public class LoginFrame extends JFrame {
 		JButton btnLogin = new JButton("Login");
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(user.login(txtUsername.getText(), txtPassword.getText())) {
+				if(User.login(txtUsername.getText(), txtPassword.getText())) {
 					new MainFrame().setVisible(true);
 					dispose();
 				}else {

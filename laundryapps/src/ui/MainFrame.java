@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 
-	/**
+	/**b
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
@@ -26,6 +26,9 @@ public class MainFrame extends JFrame {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				UserFrame frame = new UserFrame();
+				frame.setVisible(true);
+				frame.loadTable();
 			}
 		});
 	}

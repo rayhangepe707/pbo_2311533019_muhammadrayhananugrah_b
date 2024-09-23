@@ -1,4 +1,4 @@
-package model;
+package Model;
 
 public class Customer {
 	String id, nama, alamat, nomorhp;

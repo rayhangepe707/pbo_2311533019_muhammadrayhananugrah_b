@@ -1,6 +1,6 @@
-package model;
+package Model;
 
-public class user {
+public class User {
 	String id, nama, username, password;
 
 	public String getId() {
@@ -36,11 +36,11 @@ public class user {
 	}
 	public static boolean login(String username, String password) {
 		boolean isLoggin = false;
-		user user = new user();
+		User user = new User();
 		user.setId("1");
-		user.setNama("fulan");
-		user.setUsername("fulan");
-		user.setPassword("12345");
+		user.setNama("anugrah");
+		user.setUsername("anugrah");
+		user.setPassword("12345s");
 		
 		if(user.getUsername().equalsIgnoreCase(username)
 				&& user.getPassword().equalsIgnoreCase(password)) {

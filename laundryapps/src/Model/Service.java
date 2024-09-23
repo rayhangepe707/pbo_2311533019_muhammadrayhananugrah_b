@@ -1,4 +1,4 @@
-package model;
+package Model;
 
 public class Service {
 	String id, jenis, harga, status;
