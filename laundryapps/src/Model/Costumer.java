@@ -1,6 +1,6 @@
 package Model;
 
-public class Customer {
+public class Costumer {
 	String id, nama, alamat, nomorhp;
 
 	public String getId() {
